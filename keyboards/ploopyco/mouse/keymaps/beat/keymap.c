@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
                  C(KC_C), KC_BTN1, KC_BTN3, KC_BTN2, C(KC_V), KC_BTN4, KC_BTN5, MO(1)),
     [1] = LAYOUT(
-                 RGB_HUI, RGB_MOD, RGB_TOG, RGB_RMOD, MO(1), KC_VOLU, KC_VOLD, DPI_CONFIG)
+                 RGB_HUI, RGB_MOD, RGB_TOG, DPI_CONFIG, MO(1), KC_VOLU, KC_VOLD, DPI_CONFIG)
 };
 // clang-format on
 
